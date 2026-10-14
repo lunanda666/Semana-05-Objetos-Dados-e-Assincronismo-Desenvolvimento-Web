@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 05 - APIs e Assincronismo</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Semana 05 - Objetos, Dados e Assincronismo</h1>
+
+    <section>
+        <h2>Buscador de CEP</h2>
+
+        <form id="formulario-cep">
+            <input
+                type="text"
+                id="cep"
+                placeholder="Digite o CEP"
+                maxlength="9"
+                required
+            >
+            <button type="submit" id="botao-cep">
+                Buscar CEP
+            </button>
+        </form>
+
+        <p id="status-cep" aria-live="polite"></p>
+        <dl id="resultado-cep"></dl>
+
+        <h3>Histórico de CEPs</h3>
+        <ul id="historico-cep"></ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Mini Pokédex</h2>
+
+        <form id="formulario-pokemon">
+            <input
+                type="text"
+                id="pokemon"
+                placeholder="Digite o nome do Pokémon"
+                required
+            >
+            <button type="submit" id="botao-pokemon">
+                Buscar Pokémon
+            </button>
+        </form>
+
+        <p id="status-pokemon" aria-live="polite"></p>
+        <div id="resultado-pokemon"></div>
+    </section>
+</body>
+</html>
